@@ -1,0 +1,22 @@
+{
+  "name": "javascript-algorithms-datastructure",
+  "version": "1.0.0",
+  "description": "Algorithms and Data Structure implementation on JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ./src/**",
+    "test": "jest",
+    "coverage": "npm run test -- --coverage",
+    "ci": "npm run lint && npm run coverage"
+  },
+  "author": "Cyril Chukwuebuka",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^7.0.2",
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
